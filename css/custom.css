@@ -1,0 +1,60 @@
+/*
+	turquoise: #00b3c3
+	pink: #d078ba
+	dark grey: #767676
+	background light grey: #f3f3f3
+
+	heading text: #5d5d5d
+	text: #888888
+*/
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Open Sans Light'), local('OpenSans-Light'), url('../fonts/OpenSans-Light.woff') format('woff');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('../fonts/OpenSans-Semibold.woff') format('woff');
+}
+font-family: 'Montserrat', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	color: #888888;
+}
+h1, h2, h3 {
+	color: #5d5d5d;
+}
+
+
+.navbar-inverse {
+	background-color: #00b3c3;
+	border-color: #00b3c3;
+	color: #fff;
+}
+.navbar-inverse .navbar-brand {
+	color: #fff;
+}
+.navbar-brand>img {
+	height: 48px;
+	margin-top: -15px;
+}
+
+
+.row-reasons {
+	text-align: center;
+}
+.row-reasons img {
+	width: 200px;
+}
+.row-reasons h2 {
+	margin-top: 0;
+}
