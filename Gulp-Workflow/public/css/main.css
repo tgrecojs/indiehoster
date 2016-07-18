@@ -1,0 +1,67 @@
+body {
+  padding-top: 5rem; }
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center; }
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+html {
+  font-size: 16px; }
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #888888; }
+
+h1, h2, h3 {
+  color: #5d5d5d; }
+
+.navbar-inverse {
+  background-color: #00b3c3;
+  border-color: #00b3c3;
+  color: #fff; }
+
+.navbar-inverse .navbar-brand {
+  color: #fff; }
+
+.navbar-brand > img {
+  height: 48px;
+  margin-top: -15px; }
+
+.row-reasons {
+  text-align: center; }
+
+.row-reasons img {
+  width: 200px; }
+
+.row-reasons h2 {
+  margin-top: 0; }
+
+.img-div {
+  background-image: url("../img/background.png"); }
+
+.img-circle {
+  max-height: 150px;
+  padding: 1rem; }
+
+.testimonial-row {
+  margin-top: 1rem; }
+
+.last-img-div {
+  padding: 1rem; }
+
+.card {
+  background: white;
+  margin: 1rem; }
+
+.row-centered {
+  text-align: center; }
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right: -4px; }
