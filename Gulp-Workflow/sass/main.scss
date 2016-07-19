@@ -1,4 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro:400,600);
+
 $bg: blue;
+
+$primary-font: 'Montserrat', sans-serif;
+$header-font: 'Source Sans Pro', sans-serif;
 
 body {
   padding-top: 5rem;
@@ -20,6 +25,14 @@ body {
 }
 h1, h2, h3 {
 	color: #5d5d5d;
+}
+
+.container, .container-fluid {
+	font-family: $primary-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $header-font;
 }
 
 
@@ -49,7 +62,9 @@ h1, h2, h3 {
 
 .img-div {
 	  background-image: url('../img/background.png');
+	  color: #fff;
 }
+
 
 .img-circle {
 	max-height: 150px;
@@ -64,9 +79,31 @@ h1, h2, h3 {
 padding: 1rem;
 }
 
+.btn-transparent {
+	    width: 100%;
+    background: transparent;
+    border: 3px solid black;
+    margin-top: 5px;
+    color: white;
+}
+
 .card {
 	background: white;
 	margin: 1rem;
+	color: #000;
+	font-family: $primary-font;
+}
+
+.img-div-list li {
+	font-family:$primary-font;
+}
+
+.text-space {
+	padding: 2rem;
+}
+
+.footer-heading {
+	margin-top: .75rem;
 }
 
 .row-centered {
