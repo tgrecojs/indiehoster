@@ -72,6 +72,15 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Montserrat", sans-serif; }
 
+.grey-card > * {
+  background: #777777; }
+
+.teal-card {
+  background: #00b4c3; }
+
+.pink-card {
+  background: #d279bb; }
+
 .img-div-list li {
   font-family: "Montserrat", sans-serif; }
 
@@ -91,3 +100,9 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
   /* inline-block space fix */
   margin-right: -4px; }
+
+h3.text-center {
+  color: #fff; }
+
+.img-div-list li {
+  text-align: center; }

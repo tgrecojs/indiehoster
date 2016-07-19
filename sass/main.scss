@@ -2,6 +2,13 @@
 
 $bg: blue;
 
+
+/// Color Variables - Need better Naming Conventions
+
+$color-one : #00b4c3; ///Teal 
+$color-two: #d279bb; ///"hot" pink
+$color-three: #777777; /// Charcol Grey
+
 $primary-font: 'Montserrat', sans-serif;
 $header-font: 'Source Sans Pro', sans-serif;
 
@@ -94,6 +101,18 @@ padding: 1rem;
 	font-family: $primary-font;
 }
 
+.grey-card > * {
+	background: $color-three;
+}
+.teal-card {
+	background: $color-one;
+}
+
+.pink-card {
+	background: $color-two;
+}
+
+
 .img-div-list li {
 	font-family:$primary-font;
 }
@@ -119,4 +138,12 @@ padding: 1rem;
     /* inline-block space fix */
     
     margin-right: -4px;
+}
+
+h3.text-center {
+	color: #fff;
+}
+
+.img-div-list li {
+	text-align: center;
 }
