@@ -104,6 +104,24 @@ padding: 1rem;
 .grey-card > * {
 	background: $color-three;
 }
+
+
+.card-block, .card-subtitle {
+	color: #fff;
+
+}
+
+.card-title {
+    border-bottom: 3px solid white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+h2.price {
+	font-size: 3rem;
+	color: #fff;
+}
 .teal-card {
 	background: $color-one;
 }
@@ -112,6 +130,45 @@ padding: 1rem;
 	background: $color-two;
 }
 
+.li-group-item{
+	border: 0px;
+}
+.li-teal-bg {
+	background: darken($color-one, 20%);
+	color: #fff;
+	border: 0;
+}
+.li-pink-bg {
+	background: darken($color-two, 30%);
+	color: #fff;
+	border: 0;
+}
+
+.li-grey-bg {
+	background: darken($color-three, 30%);
+	color: #fff;
+	border: 0;
+	color: #fff;
+}
+.teal-bg {
+	background: $color-one;
+	border: 0px;
+	color: #fff;
+
+}
+.pink-bg {
+	background: $color-two;
+	border: 0px;
+	color: #fff;
+
+}
+
+
+.grey-bg {
+	background: $color-three;
+	border: 0px;
+	color: #fff;
+}
 
 .img-div-list li {
 	font-family:$primary-font;

@@ -75,11 +75,58 @@ h1, h2, h3, h4, h5, h6 {
 .grey-card > * {
   background: #777777; }
 
+.card-block, .card-subtitle {
+  color: #fff; }
+
+.card-title {
+  border-bottom: 3px solid white;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem; }
+
+h2.price {
+  font-size: 3rem;
+  color: #fff; }
+
 .teal-card {
   background: #00b4c3; }
 
 .pink-card {
   background: #d279bb; }
+
+.li-group-item {
+  border: 0px; }
+
+.li-teal-bg {
+  background: #00565d;
+  color: #fff;
+  border: 0; }
+
+.li-pink-bg {
+  background: #852d6e;
+  color: #fff;
+  border: 0; }
+
+.li-grey-bg {
+  background: #2b2b2b;
+  color: #fff;
+  border: 0;
+  color: #fff; }
+
+.teal-bg {
+  background: #00b4c3;
+  border: 0px;
+  color: #fff; }
+
+.pink-bg {
+  background: #d279bb;
+  border: 0px;
+  color: #fff; }
+
+.grey-bg {
+  background: #777777;
+  border: 0px;
+  color: #fff; }
 
 .img-div-list li {
   font-family: "Montserrat", sans-serif; }
