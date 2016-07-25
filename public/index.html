@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-fixed-top navbar-custom">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -65,7 +65,7 @@
             </div>
         </div>
     </div>
-      <div class="container-fluid" id="top-row">
+    <div class="container-fluid" id="top-row">
         <!-- Example row of columns -->
         <div class="row row-reasons">
             <div class="col-md-4">
@@ -89,7 +89,9 @@
         </div>
         <hr>
     </div>
-    <div class="img-div">        <div class="row">
+    <div class="img-div">
+        <div class="container">
+        <div class="row">
             <div class="col-md-4">
                 <div class="card grey-card">
                     <div class="card-block">
@@ -101,7 +103,7 @@
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item li-grey-bg">Personal</li>
-                         <li class="list-group-item grey-bg">Dapibus ac facilisis in</li>
+                        <li class="list-group-item grey-bg">Dapibus ac facilisis in</li>
                         <li class="list-group-item grey-bg">Vestibulum at eros</li>
                         <li class="list-group-item grey-bg">Cras justo odio</li>
                         <li class="list-group-item grey-bg">Dapibus ac facilisis in</li>
@@ -113,7 +115,7 @@
                 <div class="card teal-card">
                     <div class="card-block">
                         <h4 class="card-title grey-header">Personal</h4>
-                        <h2 class="price">
+                        <h2 class="price text-center">
                             €24
                         </h2>
                         <p class="card-subtitle text-muted">per year</p>
@@ -133,14 +135,14 @@
                 <div class="card pink-card">
                     <div class="card-block">
                         <h4 class="card-title">Organization</h4>
-                         <h2 class="price">
+                        <h2 class="price">
                             €24
                         </h2>
                         <p class="card-subtitle text-muted">per year</p>
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item li-pink-bg">Cras justo odio</li>
-                         <li class="list-group-item pink-bg">Dapibus ac facilisis in</li>
+                        <li class="list-group-item pink-bg">Dapibus ac facilisis in</li>
                         <li class="list-group-item pink-bg">Vestibulum at eros</li>
                         <li class="list-group-item pink-bg">Cras justo odio</li>
                         <li class="list-group-item pink-bg">Dapibus ac facilisis in</li>
@@ -151,7 +153,6 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
         <div class="row testimonial-row">
             <h4 class="text-center">Here's what our users say about us</h4>
             <div class="col-md-4 col-md-offset-1">
@@ -165,17 +166,15 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
         </div>
-    </div>
-    <div class="img-div last-img-div">
         <div class="row row-centered">
             <div class="col-md-5 col-centered">
                 <h3 class="text-center">Hosting for freedom, not your profit.</h3>
-                 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-check-square"></i></li>
-  <li><i class="fa-li fa fa-check-square"></i>can be used</li>
-  <li><i class="fa-li fa fa-spinner fa-spin"></i>as bullets</li>
-  <li><i class="fa-li fa fa-square"></i>in lists</li>
-</ul>
+                <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-check-square"></i></li>
+                    <li><i class="fa-li fa fa-check-square"></i>can be used</li>
+                    <li><i class="fa-li fa fa-spinner fa-spin"></i>as bullets</li>
+                    <li><i class="fa-li fa fa-square"></i>in lists</li>
+                </ul>
             </div>
         </div>
         <div class="row">
@@ -196,23 +195,23 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row footer-row">
             <div class="col-md-3">
                 <h4 class="footer-heading">Our Services</h4>
-                <p><a href="#">Home</a></p>
-                <p><a href="#">Shop</a></p>
-                <p><a href="#">Service Layout</a></p>
+                <p><a class="footer-link" href="#">Home</a></p>
+                <p><a class="footer-link" href="#">Shop</a></p>
+                <p><a class="footer-link" href="#">Service Layout</a></p>
             </div>
             <div class="col-md-3">
                 <h4 class="footer-heading">Links</h4>
-                <p>Contact Page</p>
-                <p>Live Chat</p>
+                <p><a class="footer-link" href="#">Contact Page</a></p>
+                <p><a class="footer-link" href="#">Live Chat</a></p>
             </div>
             <div class="col-md-3">
                 <h4 class="footer-heading">Contact</h4>
-                <p>fr:<a href="tel:+33972527732">+33 9 72 52 77 32</a></p>
-                <p>pt:<a href="tel:+351967184553">+351 967 184553</a></p>
-                <p>de:<a href="tel:+4915783547470">+49 157 83547470</a></p>
+                <p>fr:<a class="footer-link" href="tel:+33972527732">+33 9 72 52 77 32</a></p>
+                <p>pt:<a class="footer-link" href="tel:+351967184553">+351 967 184553</a></p>
+                <p>de:<a class="footer-link" href="tel:+4915783547470">+49 157 83547470</a></p>
             </div>
             <div class="col-md-3">
                 <h4 class="footer-heading">
@@ -225,15 +224,15 @@
             </div>
         </div>
     </div>
-            <!-- Bootstrap core JavaScript
+    <!-- Bootstrap core JavaScript
     ================================================== -->
-            <!-- Placed at the end of the document so the pages load faster -->
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-            <script>
-            window.jQuery || document.write('<script src="./bower_components/jquery/dist/jquery.min.js"><\/script>')
-            </script>
-            <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="./bower_components/jquery/dist/jquery.min.js"><\/script>')
+    </script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
 </body>
 
 </html>

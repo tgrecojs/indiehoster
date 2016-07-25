@@ -1,5 +1,12 @@
-# Bootstrap 4 Starter Template
+# IndieHoster 
+*Hosting For Freedom, Not For Profit*
 
-Template that lets you get started with Bootstrap 4 blazing fast.
+### Project Details
+Redesigning the website for IndieHoster. This project was worked on by Thomas Greco for [Ura Design](ura.al) in July of 2016.
 
-https://www.sourcelair.com/blueprints/sourcelair/bootstrap-4-starter
+#### Left to do
+* [X] Fix Navbar
+* [X] Add Google Fonts
+* [ ] Refactor Sass CSS
+* [ ] Set Height on Image Div
+* [ ] Ensure Site is Fully Responsive 

@@ -15,26 +15,37 @@ body {
   padding-bottom: 20px;
   color: #888888; }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #5d5d5d; }
 
-.container, .container-fluid {
+.container,
+.container-fluid {
   font-family: "Montserrat", sans-serif; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Source Sans Pro", sans-serif; }
 
-.navbar-inverse {
+.navbar-custom {
   background-color: #00b3c3;
   border-color: #00b3c3;
   color: #fff; }
 
-.navbar-inverse .navbar-brand {
+.navbar-custom .navbar-brand {
   color: #fff; }
 
 .navbar-brand > img {
   height: 48px;
   margin-top: -15px; }
+
+.navbar-nav > li > a {
+  color: #fff; }
 
 .row-reasons {
   text-align: center; }
@@ -47,14 +58,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .img-div {
   background-image: url("../img/background.png");
-  color: #fff; }
+  color: #fff;
+  height: 100%; }
 
 .img-circle {
   max-height: 150px;
   padding: 1rem; }
 
 .testimonial-row {
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  background: white;
+  color: #000;
+  padding: 1rem; }
 
 .last-img-div {
   padding: 1rem; }
@@ -84,8 +99,10 @@ strong {
 .grey-card > * {
   background: #777777; }
 
-.card-block, .card-subtitle {
-  color: #fff; }
+.card-block,
+.card-subtitle {
+  color: #fff;
+  text-align: center; }
 
 .card-title {
   border-bottom: 3px solid white;
@@ -164,6 +181,9 @@ h2.price {
 
 h3.text-center {
   color: #fff; }
+
+.footer-link {
+  color: #00b4c3; }
 
 .img-div-list li {
   text-align: center; }
