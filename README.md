@@ -5,8 +5,8 @@
 Redesigning the website for IndieHoster. This project was worked on by Thomas Greco for [Ura Design](ura.al) in July of 2016.
 
 #### Left to do
-* [X] Fix Navbar
-* [X] Add Google Fonts
 * [ ] Refactor Sass CSS
-* [ ] Set Height on Image Div
+* [ ] Sift through HTML for any *straggling* `<div>` tags.
+* [ ] Set Height on Image Div | Set `cover` | set `no-repeat`
+* [ ] Fix Cards -> Bottom Border. `<b>Select Words</b>`. 
 * [ ] Ensure Site is Fully Responsive 

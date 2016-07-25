@@ -86,15 +86,21 @@ button.navbar-toggle {
 .last-img-div {
   padding: 1rem; }
 
-.btn-transparent {
+.btn-pink, .btn-teal {
   width: 100%;
-  background: transparent;
-  border: 3px solid black;
   margin-top: 5px;
+  color: white;
+  border: 0; }
+
+#phoneInput {
+  background: transparent;
   color: white; }
 
 .btn-full {
   width: 100%; }
+
+.btn-teal {
+  background: #00b4c3; }
 
 .btn-pink {
   background: #d279bb; }
@@ -192,7 +198,8 @@ h2.price {
   margin-right: -4px; }
 
 h3.text-center {
-  color: #fff; }
+  color: #fff;
+  font-size: 1.75rem; }
 
 .footer-link {
   color: #00b4c3; }
