@@ -40,6 +40,10 @@ h6 {
 .navbar-custom .navbar-brand {
   color: #fff; }
 
+button.navbar-toggle {
+  background: #d279bb;
+  border: 2px solid #eee; }
+
 .navbar-brand > img {
   height: 48px;
   margin-top: -15px; }
