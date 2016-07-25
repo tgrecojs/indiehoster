@@ -65,6 +65,9 @@ button.navbar-toggle {
   color: #fff;
   height: 100%; }
 
+.logo-img {
+  max-width: 450px; }
+
 .img-circle {
   max-height: 150px;
   padding: 1rem; }
@@ -74,6 +77,11 @@ button.navbar-toggle {
   background: white;
   color: #000;
   padding: 1rem; }
+
+.testimonial-row > h3 {
+  color: #000;
+  text-align: center;
+  font-size: 2rem; }
 
 .last-img-div {
   padding: 1rem; }
@@ -173,7 +181,8 @@ h2.price {
   margin-top: .75rem; }
 
 .row-centered {
-  text-align: center; }
+  text-align: center;
+  font-family: "Montserrat", sans-serif; }
 
 .col-centered {
   display: inline-block;
