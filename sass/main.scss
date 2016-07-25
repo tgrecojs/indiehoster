@@ -94,6 +94,16 @@ padding: 1rem;
     color: white;
 }
 
+.btn-full {
+	width: 100%;
+}
+
+.btn-pink {
+	background: $color-two;
+}
+strong {
+	color: $color-two;
+}
 .card {
 	background: white;
 	margin: 1rem;
@@ -147,27 +157,32 @@ h2.price {
 .li-grey-bg {
 	background: darken($color-three, 30%);
 	color: #fff;
-	border: 0;
 	color: #fff;
 }
 .teal-bg {
 	background: $color-one;
-	border: 0px;
 	color: #fff;
-
+	border-bottom: 3px solid white;
 }
 .pink-bg {
 	background: $color-two;
-	border: 0px;
 	color: #fff;
-
+    border-bottom: 3px solid white;
 }
 
 
+#top-row {
+	background: #eee;
+}
+
+.jumbotron {
+	background: #fff;
+}
+
 .grey-bg {
 	background: $color-three;
-	border: 0px;
 	color: #fff;
+	 border-bottom: 3px solid white;
 }
 
 .img-div-list li {
@@ -204,3 +219,5 @@ h3.text-center {
 .img-div-list li {
 	text-align: center;
 }
+
+
