@@ -62,8 +62,15 @@ button.navbar-toggle {
 
 .img-div {
   background-image: url("../img/background.png");
+  background-repeat: no-repeat; }
+
+.img-div {
   color: #fff;
   height: 100%; }
+  @media screen and (max-width: 320px) {
+    .img-div {
+      background-image: none;
+      background-color: red; } }
 
 .logo-img {
   max-width: 450px; }

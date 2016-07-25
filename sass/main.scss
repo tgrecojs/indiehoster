@@ -86,8 +86,19 @@ button.navbar-toggle {
 
 .img-div {
     background-image: url('../img/background.png'); 
+    background-repeat: no-repeat;
+}
+
+$break-small: 320px;
+$break-large: 1200px;
+
+.img-div {
     color: #fff;
     height: 100%;
+  @media screen and (max-width: $break-small) {
+    background-image: none;
+    background-color: red;
+  }
 }
 
 .logo-img {
