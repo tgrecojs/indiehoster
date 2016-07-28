@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro:400,600);
 body {
-  padding-top: 5rem; }
+  padding-top: 5rem;
+  width: 100%; }
 
 .starter-template {
   padding: 3rem 1.5rem;
@@ -30,7 +31,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif;
+  color: #5D5D5D; }
 
 .navbar-custom {
   background-color: #00b3c3;
@@ -65,8 +67,7 @@ button.navbar-toggle {
   background-repeat: no-repeat; }
 
 .img-div {
-  color: #fff;
-  height: 100%; }
+  color: #fff; }
   @media screen and (max-width: 320px) {
     .img-div {
       background-image: none;
@@ -81,13 +82,16 @@ button.navbar-toggle {
 
 .testimonial-row {
   margin-top: 1rem;
+  padding: 1rem;
   background: white;
-  color: #000;
-  padding: 1rem; }
+  color: #777; }
 
 .testimonial-row > h3 {
   color: #000;
   text-align: center;
+  font-size: 2rem; }
+
+h4.testimonial-name {
   font-size: 2rem; }
 
 .last-img-div {
@@ -117,14 +121,17 @@ strong {
 
 .card {
   background: white;
-  margin: 1rem;
+  margin-top: 3rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
   color: #000;
   font-family: "Montserrat", sans-serif; }
 
 .card-block,
 .card-subtitle {
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 2rem; }
 
 .card-title {
   border-bottom: 3px solid white;
@@ -132,9 +139,12 @@ strong {
   font-size: 2rem;
   padding: 1rem; }
 
-h2.price {
-  font-size: 3rem;
+h5.price {
+  font-size: 1.75rem;
   color: #fff; }
+
+.price > b {
+  font-size: 3rem; }
 
 .teal-card {
   background: #00b4c3; }
@@ -145,13 +155,13 @@ h2.price {
 .grey-card {
   background: #777777; }
 
-.li-group-item {
+.list-group-item {
   border: 0px; }
 
 .li-teal-bg {
   background: #00565d;
   color: #fff;
-  border: 0; }
+  border: 0px; }
 
 .li-pink-bg {
   background: #852d6e;
@@ -175,7 +185,21 @@ h2.price {
   color: #fff; }
 
 .card ul li {
-  border: 0px; }
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 2px solid #fff;
+  font-weight: 400; }
+
+b {
+  font-weight: 700; }
+
+.list-group-item:first-child {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px; }
+
+.list-group-item:last-child {
+  border-bottom: 0px; }
 
 #top-row {
   background: #eee; }
@@ -192,6 +216,9 @@ h2.price {
 .footer-heading {
   margin-top: .75rem; }
 
+.footer-heading p {
+  line-height: 1rem; }
+
 .row-centered {
   text-align: center;
   font-family: "Montserrat", sans-serif; }
@@ -207,6 +234,10 @@ h2.price {
 h3.text-center {
   color: #fff;
   font-size: 1.75rem; }
+
+.footer-row {
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
 
 .footer-link {
   color: #00b4c3; }
