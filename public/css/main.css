@@ -30,14 +30,9 @@ h2,
 h3 {
   color: #5d5d5d; }
 
-.container,
-.container-fluid {
-  font-family: "Montserrat", sans-serif; }
-
 .container-fluid {
   background: white;
-  color: #888;
-  min-height: 300px; }
+  color: #888; }
 
 h1,
 h2,
@@ -45,8 +40,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #5D5D5D; }
+
+p {
+  font-family: "Source Sans Pro", sans-serif; }
 
 .navbar-custom {
   background-color: #00b3c3;
@@ -104,20 +102,8 @@ button.navbar-toggle {
   max-height: 150px;
   padding: 1rem; }
 
-.testimonial-row {
-  margin-top: 1rem;
-  padding: 1rem;
-  background: white;
-  color: #777;
-  height: 300px; }
-
-.testimonial-row > h3 {
-  color: #000;
-  text-align: center;
-  font-size: 2rem; }
-
 h4.testimonial-name {
-  font-size: 2rem; }
+  font-size: 1.5rem; }
 
 .last-img-div {
   padding: 1rem; }
@@ -147,7 +133,7 @@ strong {
   margin-right: 1rem;
   margin-left: 1rem;
   color: #000;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif; }
 
 .card-block,
 .card-subtitle {
@@ -234,7 +220,7 @@ b {
   margin-top: 1rem; }
 
 .img-div-list li {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif; }
 
 .text-space {
   padding: 2rem; }
@@ -247,7 +233,7 @@ b {
 
 .row-centered {
   text-align: center;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif; }
 
 .col-centered {
   display: inline-block;
@@ -262,18 +248,16 @@ b {
   justify-content: center;
   align-items: center; }
 
-.img-responsive {
-  width: 300px; }
-
 h3.text-center {
   color: #fff;
   font-size: 1.75rem; }
 
 .center {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 1.25rem; }
 
 .footer-row {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 1rem; }
 
 .footer-link {
@@ -281,3 +265,11 @@ h3.text-center {
 
 .img-div-list li {
   text-align: center; }
+
+.flex-row {
+  display: flex;
+  align-content: center;
+  justify-content: space-around; }
+
+.feature-img {
+  max-width: 150px; }

@@ -5,9 +5,9 @@ $bg: blue;
 $color-one: #00b4c3; ///Teal 
 $color-two: #d279bb; ///"hot" pink
 $color-three: #777777; /// Charcol Grey
-$primary-font: 'Montserrat',
+$header-font: 'Montserrat',
 sans-serif;
-$header-font: 'Source Sans Pro',
+$primary-font: 'Source Sans Pro',
 sans-serif;
 body,
 .img-div {
@@ -49,15 +49,9 @@ h3 {
     color: #5d5d5d;
 }
 
-.container,
-.container-fluid {
-    font-family: $primary-font;
-}
-
 .container-fluid {
     background: white;
     color: #888;
-    min-height: 300px;
 }
 
 h1,
@@ -70,6 +64,9 @@ h6 {
     color: #5D5D5D;
 }
 
+p {
+    font-family: $primary-font;
+}
 .navbar-custom {
     background-color: #00b3c3;
     border-color: #00b3c3;
@@ -146,22 +143,9 @@ button.navbar-toggle {
     padding: 1rem;
 }
 
-.testimonial-row {
-    margin-top: 1rem;
-    padding: 1rem;
-    background: white;
-    color: #777;
-    height: 300px;
-}
-
-.testimonial-row > h3 {
-    color: #000;
-    text-align: center;
-    font-size: 2rem;
-}
-
 h4.testimonial-name {
-    font-size: 2rem;
+    font-size: 1.5rem;
+
 }
 
 .last-img-div {
@@ -342,9 +326,6 @@ b {
     align-items: center;
 }
 
-.img-responsive {
-    width: 300px;
-}
 h3.text-center {
     color: #fff;
     font-size: 1.75rem;
@@ -352,10 +333,11 @@ h3.text-center {
 
 .center {
     text-align: center;
+    margin-bottom: 1.25rem;
 }
 
 .footer-row {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -365,4 +347,12 @@ h3.text-center {
 
 .img-div-list li {
     text-align: center;
+}
+.flex-row {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.feature-img {
+    max-width: 150px;
 }
