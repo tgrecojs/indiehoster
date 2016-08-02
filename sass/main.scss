@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro:400,600);
 @import '../node_modules/compass-mixins/lib/compass';
-$bg: blue;
 /// Color Variables - Need better Naming Conventions
 $color-one: #00b4c3; ///Teal 
 $color-two: #d279bb; ///"hot" pink
@@ -19,12 +18,12 @@ body,
     width: 100%;
 }
 
-.row-full{
-      width: 100vw;
-      position: relative;
-      margin-left: -50vw;
-      margin-top: 100px;
-      left: 50%;
+.row-full {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    margin-top: 100px;
+    left: 50%;
 }
 
 .starter-template {
@@ -67,6 +66,7 @@ h6 {
 p {
     font-family: $primary-font;
 }
+
 .navbar-custom {
     background-color: #00b3c3;
     border-color: #00b3c3;
@@ -110,28 +110,27 @@ button.navbar-toggle {
     color: #fff;
 }
 
+
 /* Extra Small Devices, Phones */
 
 @media only screen and (min-width: 320px) {
-     .img-div {
+    .img-div {
         @include background-image(linear-gradient(to bottom right, green, #dddddd));
     }
 }
 
-/* Small Devices, Tablets */
 
+/* Small Devices, Tablets */
 
 
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 992px) {
-      .img-div {
+    .img-div {
         background-image: url('../img/background.png');
         background-repeat: no-repeat;
     }
 }
-
-
 
 .logo-img {
     max-width: 450px;
@@ -145,7 +144,6 @@ button.navbar-toggle {
 
 h4.testimonial-name {
     font-size: 1.5rem;
-
 }
 
 .last-img-div {
@@ -229,19 +227,19 @@ h5.price {
 }
 
 .li-teal-bg {
-    background: darken($color-one, 20%);
+    background: darken($color-one, 10%);
     color: #fff;
     border: 0px;
 }
 
 .li-pink-bg {
-    background: darken($color-two, 30%);
+    background: darken($color-two, 10%);
     color: #fff;
     border: 0;
 }
 
 .li-grey-bg {
-    background: darken($color-three, 30%);
+    background: darken($color-three, 10%);
     color: #fff;
 }
 
@@ -321,7 +319,7 @@ b {
 }
 
 .center-img {
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -329,6 +327,22 @@ b {
 h3.text-center {
     color: #fff;
     font-size: 1.75rem;
+}
+
+#catchphrase {
+    color: #fff;
+}
+
+@media only screen and (min-width: 680px) {
+    #catchphrase {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 680px) {
+    #catchphrase {
+        min-width: 500px;
+    }
 }
 
 .center {
@@ -348,11 +362,28 @@ h3.text-center {
 .img-div-list li {
     text-align: center;
 }
+
 .flex-row {
     display: flex;
     align-content: center;
     justify-content: space-around;
 }
+
 .feature-img {
     max-width: 150px;
+}
+
+.nav li a {
+    font-family: $header-font;
+}
+
+.fa-ul li {
+    list-style: none;
+    text-align: left;
+    margin-left: 1.75rem;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: #007D96;
 }
