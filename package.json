@@ -30,5 +30,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "compass-mixins": "^0.12.10"
+  }
 }

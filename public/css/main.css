@@ -1,6 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro:400,600);
-body {
-  padding-top: 5rem;
+body,
+.img-div {
+  margin: 0 auto;
+  padding: 0 auto; }
+
+.container-full {
+  margin: 0 auto;
   width: 100%; }
 
 .starter-template {
@@ -12,8 +17,6 @@ html {
   font-size: 16px; }
 
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
   color: #888888; }
 
 h1,
@@ -62,16 +65,25 @@ button.navbar-toggle {
 .row-reasons h2 {
   margin-top: 0; }
 
-.img-div {
-  background-image: url("../img/background.png");
-  background-repeat: no-repeat; }
-
+/* Custom, iPhone Retina */
 .img-div {
   color: #fff; }
-  @media screen and (max-width: 320px) {
-    .img-div {
-      background-image: none;
-      background-color: red; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 320px) {
+  .img-div {
+    background-image: -owg-linear-gradient(to bottom right, green, #dddddd);
+    background-image: -webkit-linear-gradient(to bottom right, green, #dddddd);
+    background-image: -moz-linear-gradient(to bottom right, green, #dddddd);
+    background-image: -o-linear-gradient(to bottom right, green, #dddddd);
+    background-image: linear-gradient(to bottom right, green, #dddddd); } }
+
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .img-div {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat; } }
 
 .logo-img {
   max-width: 450px; }
@@ -97,15 +109,12 @@ h4.testimonial-name {
 .last-img-div {
   padding: 1rem; }
 
-.btn-pink, .btn-teal {
+.btn-pink,
+.btn-teal {
   width: 100%;
   margin-top: 5px;
   color: white;
   border: 0; }
-
-#phoneInput {
-  background: transparent;
-  color: white; }
 
 .btn-full {
   width: 100%; }
@@ -132,6 +141,9 @@ strong {
   color: #fff;
   text-align: center;
   margin-bottom: 2rem; }
+
+.card-block > h4 {
+  color: #fff; }
 
 .card-title {
   border-bottom: 3px solid white;

@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro:400,600);
+@import '../node_modules/compass-mixins/lib/compass';
 $bg: blue;
 /// Color Variables - Need better Naming Conventions
 $color-one: #00b4c3; ///Teal 
@@ -8,8 +9,14 @@ $primary-font: 'Montserrat',
 sans-serif;
 $header-font: 'Source Sans Pro',
 sans-serif;
-body {
-    padding-top: 5rem;
+body,
+.img-div {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.container-full {
+    margin: 0 auto;
     width: 100%;
 }
 
@@ -26,8 +33,6 @@ html {
 }
 
 body {
-    padding-top: 50px;
-    padding-bottom: 20px;
     color: #888888;
 }
 
@@ -61,6 +66,7 @@ h6 {
 .navbar-custom .navbar-brand {
     color: #fff;
 }
+
 button.navbar-toggle {
     background: $color-two;
     border: 2px solid #eee;
@@ -70,8 +76,9 @@ button.navbar-toggle {
     height: 48px;
     margin-top: -15px;
 }
+
 .navbar-nav>li>a {
-	color: #fff;
+    color: #fff;
 }
 
 .row-reasons {
@@ -86,21 +93,35 @@ button.navbar-toggle {
     margin-top: 0;
 }
 
-.img-div {
-    background-image: url('../img/background.png'); 
-    background-repeat: no-repeat;
-}
 
-$break-small: 320px;
-$break-large: 1200px;
+/* Custom, iPhone Retina */
 
 .img-div {
     color: #fff;
-  @media screen and (max-width: $break-small) {
-    background-image: none;
-    background-color: red;
-  }
 }
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 320px) {
+     .img-div {
+        @include background-image(linear-gradient(to bottom right, green, #dddddd));
+    }
+}
+
+/* Small Devices, Tablets */
+
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+      .img-div {
+        background-image: url('../img/background.png');
+        background-repeat: no-repeat;
+    }
+}
+
+
 
 .logo-img {
     max-width: 450px;
@@ -112,11 +133,12 @@ $break-large: 1200px;
 }
 
 .testimonial-row {
-    margin-top: 1rem; 
+    margin-top: 1rem;
     padding: 1rem;
     background: white;
     color: #777;
 }
+
 .testimonial-row > h3 {
     color: #000;
     text-align: center;
@@ -131,16 +153,12 @@ h4.testimonial-name {
     padding: 1rem;
 }
 
-.btn-pink, .btn-teal {
+.btn-pink,
+.btn-teal {
     width: 100%;
     margin-top: 5px;
     color: white;
     border: 0;
-}
-
-#phoneInput {
-    background: transparent;
-    color: white;
 }
 
 .btn-full {
@@ -160,20 +178,23 @@ strong {
 }
 
 .card {
-    background: white; 
+    background: white;
     margin-top: 3rem;
     margin-right: 1rem;
-        margin-left: 1rem;
+    margin-left: 1rem;
     color: #000;
     font-family: $primary-font;
 }
-
 
 .card-block,
 .card-subtitle {
     color: #fff;
     text-align: center;
     margin-bottom: 2rem;
+}
+
+.card-block > h4 {
+    color: #fff;
 }
 
 .card-title {
@@ -199,6 +220,7 @@ h5.price {
 .pink-card {
     background: $color-two;
 }
+
 .grey-card {
     background: $color-three;
 }
@@ -246,13 +268,16 @@ h5.price {
     border-bottom: 2px solid #fff;
     font-weight: 400;
 }
+
 b {
     font-weight: 700;
 }
+
 .list-group-item:first-child {
-        border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
+
 .list-group-item:last-child {
     border-bottom: 0px;
 }
@@ -264,7 +289,6 @@ b {
 .jumbotron {
     background: #fff;
 }
-
 
 .img-div-list li {
     font-family: $primary-font;
@@ -279,7 +303,7 @@ b {
 }
 
 .footer-heading p {
-        line-height: 1rem;
+    line-height: 1rem;
 }
 
 .row-centered {
@@ -302,12 +326,12 @@ h3.text-center {
 }
 
 .footer-row {
-        margin-top: 2rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
 .footer-link {
-	color: $color-one;
+    color: $color-one;
 }
 
 .img-div-list li {
