@@ -34,6 +34,11 @@ h3 {
 .container-fluid {
   font-family: "Montserrat", sans-serif; }
 
+.container-fluid {
+  background: white;
+  color: #888;
+  min-height: 300px; }
+
 h1,
 h2,
 h3,
@@ -92,7 +97,8 @@ button.navbar-toggle {
     background-repeat: no-repeat; } }
 
 .logo-img {
-  max-width: 450px; }
+  max-width: 450px;
+  margin-bottom: -15px; }
 
 .img-circle {
   max-height: 150px;
@@ -102,7 +108,8 @@ button.navbar-toggle {
   margin-top: 1rem;
   padding: 1rem;
   background: white;
-  color: #777; }
+  color: #777;
+  height: 300px; }
 
 .testimonial-row > h3 {
   color: #000;
@@ -261,6 +268,9 @@ b {
 h3.text-center {
   color: #fff;
   font-size: 1.75rem; }
+
+.center {
+  text-align: center; }
 
 .footer-row {
   margin-top: 2rem;

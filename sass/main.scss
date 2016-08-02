@@ -54,6 +54,12 @@ h3 {
     font-family: $primary-font;
 }
 
+.container-fluid {
+    background: white;
+    color: #888;
+    min-height: 300px;
+}
+
 h1,
 h2,
 h3,
@@ -132,6 +138,7 @@ button.navbar-toggle {
 
 .logo-img {
     max-width: 450px;
+    margin-bottom: -15px;
 }
 
 .img-circle {
@@ -144,6 +151,7 @@ button.navbar-toggle {
     padding: 1rem;
     background: white;
     color: #777;
+    height: 300px;
 }
 
 .testimonial-row > h3 {
@@ -340,6 +348,10 @@ b {
 h3.text-center {
     color: #fff;
     font-size: 1.75rem;
+}
+
+.center {
+    text-align: center;
 }
 
 .footer-row {
