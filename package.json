@@ -1,5 +1,5 @@
 {
-  "name": "Gulp-Workflow",
+  "name": "get-i2p",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,6 +7,7 @@
     "start": "gulp"
   },
   "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
     "browser-sync": "^2.13.0",
     "del": "^1.1.1",
     "gulp": "^3.9.1",
@@ -14,6 +15,7 @@
     "gulp-babel": "^5.2.1",
     "gulp-cache": "^0.2.8",
     "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
     "gulp-eslint": "^0.13.2",
     "gulp-if": "^1.2.5",
     "gulp-imagemin": "^2.2.1",
@@ -25,6 +27,7 @@
     "gulp-sass": "^2.0.0",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.1.0",
+    "gulp-uncss": "^1.0.6",
     "gulp-util": "3.0.6",
     "sassdoc": "^2.1.20"
   },

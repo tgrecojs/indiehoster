@@ -1,10 +1,12 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
+var uncss       = require('gulp-uncss');
+var nano        = require('gulp-cssnano');
 
 
 
-var input = './sass/**/*.scss';
+var input = './sass/**/*.scss';	
 var output = './public/css';
 
 // Static Server + watching scss/html files
@@ -24,6 +26,15 @@ gulp.task('sass', function() {
         .pipe(sass())
         .pipe(gulp.dest(output))
         .pipe(browserSync.stream());
+});
+
+gulp.task('build', function() {
+    return gulp.src('public/css/main.css')
+          .pipe(uncss({
+            html: ['public/index.html']
+        }))
+        .pipe(nano())
+        .pipe(gulp.dest('./out'));
 });
 
 gulp.task('default', ['serve']);

@@ -1,9 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro:400,600);
+@import '../node_modules/bootstrap-sass//assets/stylesheets/bootstrap';
 @import '../node_modules/compass-mixins/lib/compass';
 /// Color Variables - Need better Naming Conventions
 $color-one: #00b4c3; ///Teal 
 $color-two: #d279bb; ///"hot" pink
 $color-three: #777777; /// Charcol Grey
+$color-one-light: #00e3f6;
+$color-two-light: #e5b2d8;
+$color-three-light: #999;
+
 $header-font: 'Montserrat',
 sans-serif;
 $primary-font: 'Source Sans Pro',
@@ -90,19 +95,6 @@ button.navbar-toggle {
 .navbar-nav>li>a {
     color: #fff;
 }
-
-.row-reasons {
-    text-align: center;
-}
-
-.row-reasons img {
-    width: 200px;
-}
-
-.row-reasons h2 {
-    margin-top: 0;
-}
-
 
 /* Custom, iPhone Retina */
 
@@ -226,20 +218,21 @@ h5.price {
     border: 0px;
 }
 
+
 .li-teal-bg {
-    background: darken($color-one, 10%);
+    background: $color-one-light;
     color: #fff;
     border: 0px;
 }
 
 .li-pink-bg {
-    background: darken($color-two, 10%);
+    background: $color-two-light;
     color: #fff;
     border: 0;
 }
 
 .li-grey-bg {
-    background: darken($color-three, 10%);
+    background: $color-three-light;
     color: #fff;
 }
 
@@ -286,10 +279,6 @@ b {
 .jumbotron {
     background: #fff;
     margin-top: 1rem;
-}
-
-.img-div-list li {
-    font-family: $primary-font;
 }
 
 .text-space {
@@ -357,10 +346,6 @@ h3.text-center {
 
 .footer-link {
     color: $color-one;
-}
-
-.img-div-list li {
-    text-align: center;
 }
 
 .flex-row {
